@@ -1,0 +1,303 @@
+body{
+    font-family: Arial;
+    font-size: medium;
+    font-weight: 200;
+    overflow-x: hidden;
+}
+.bar{
+    height: 50px;
+    width: 100%;
+    background-color: red;
+    color: white;
+
+}
+vr{
+    float: right;
+    margin-top: -60px;
+    margin-right: 30px;
+}
+h5{
+    margin-left: 10px;
+    padding: 20px;
+}
+.logo{
+    margin-top: 25px;
+    margin-left: 20px;
+    color: rgba(255, 0, 0, 0.781);
+}
+nav.first{
+	height: 30px;
+	width: 100%;
+}
+nav.first ul{
+    float: right;
+    margin-right: 25%;
+    margin-top: -40px;
+}
+nav.first ul li{
+    display: inline-block;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: medium;
+    color: red;
+}
+button.first{
+    width: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 20px;
+	border-color: red;
+	cursor: pointer;
+    background-color: white;
+}
+button.first :hover{
+    background: red;
+    color: white;
+}
+article{
+    background: url(drift.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 70%;
+    height: 350px;
+    color: white;
+    margin-top: -20px;
+}
+span{
+    font-size: 120px;
+    font-family: Arial, Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    margin-right: 5px;
+}
+p.art{
+    margin-left: 50px;
+    padding: 50px;
+    font-size: large;
+    text-align: justify;
+}
+section.cont{
+    margin-left: 45%;
+    margin-top: -220px;
+}
+img{
+    margin-left: 140px;
+    margin-top: 1rem;
+}
+.context{
+    background-color: transparent;
+    height: 300px;
+}
+.core_value{
+    height: 350px;
+    background-color: whitesmoke;
+}
+.core img{
+    margin-left: 1.8rem;
+}
+.core{
+    display: flex;
+    margin-top: -50px;
+    column-gap: -20%;
+}
+.core_value .h5{
+    display: flex;
+    margin-left: -2.5rem;
+    column-gap: 1rem;
+}
+.core_value .h5 h5{
+    margin-left: 13%;
+    margin-top: -3.5rem;
+    font-size: large;
+}
+.services{
+    background-color: white;
+    height: 430px;
+    margin: auto;
+    padding: 30px
+}
+h4{
+    text-align: center;
+    font-size: x-large;
+    color: red;
+    margin-top: 10px;
+}
+.pickup{
+    width: 260px;
+    height: 370px;
+    border-width: 5px;
+    box-shadow: 0 2rem 3rem rgb(173, 170, 170);
+    border-radius: 30px;
+    margin-left: 4rem;
+}
+p.Pickup{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+header{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+.carsrent{
+    width: 260px;
+    height: 370px;
+    border-width: 5px;
+    box-shadow: 0 2rem 3rem rgb(173, 170, 170);
+    border-radius: 30px;
+    margin-left: 26rem;
+    margin-top: -370px;
+}
+p.Car{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.trip{
+    width: 260px;
+    height: 370px;
+    border-width: 5px;
+    box-shadow: 0 2rem 3rem rgb(173, 170, 170);
+    border-radius: 30px;
+    margin-left: 48rem;
+    margin-top: -370px;
+}
+p.Trip{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.img{
+    background: url(FQZsG4CXoAsO6-I.jpg);
+    background-size: cover;
+    height: 400px;
+    width: 600px;
+    color: white;
+    margin-left: 90px;
+    margin-top:10px;
+}
+p.im{
+    margin-top: 340px;
+    margin-left: 300px;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section.sign_up{
+    height: 490px;
+    background-color: lightpink;
+    
+}
+.form{
+    margin-left: 65%;
+    margin-top: -25rem;
+}
+form input{
+	width: 230px;
+	text-align: 1rem match-patent;
+	background: transparent;
+    border-radius: 10px;
+	font-size: 17px;
+	font-weight: 500;
+    
+	padding: 10px 0;
+	height: 15px;
+	color: black;
+}
+button.second{
+	width: 230px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 19px;
+	border-radius: 15px;
+	border: none;
+	cursor: pointer;
+    background-color: red;
+}
+button.second:hover{
+    background: black;
+}
+a.login{
+    color: red;
+}
+a.signup{
+	color: white;
+    text-decoration: none;
+}
+a:hover{
+color: cyan;
+}
+::placeholder{
+	color: white;
+	opacity: 0.5;
+}
+.DRIFT{
+       margin-left: 80px;
+       margin-top: 20px;
+}
+.Link{
+      margin-left: 40%;
+      margin-top: -240px;
+}
+.Feature{
+         margin-left: 60%;
+         margin-top: -220px; 
+}
+footer{
+    background-color: white;
+    height: 290px;
+}
+address{
+    text-align: center;
+    margin-top: 30px;
+}
+nav.second a{
+    text-decoration: none;
+    color: black;
+    margin-right: 100%;
+}
+h3.foot{
+    color: red;
+    font-weight: lighter;
+}
+h2{
+    font-size: xx-large;
+    font-weight: 70px;
+    color: red;
+}
+.Social{
+    float: right;
+    margin-top: -160px;
+    margin-right: 160px;
+}
+.socialmedia{
+    display: flex;
+    color: rgb(204, 16, 16);
+    margin-left: 80%;
+    font-size: x-large;
+    margin-top: -70px;
+    
+}
+.socialmedia i{
+    margin-left: 20px;
+}
+section.menu{
+    height: 50px;
+}
+.Media{
+    display: flex;
+    color: rgb(204, 16, 16);
+    font-size: x-large;
+}
+.Media i{
+    margin-left: 10px;
+}
+.car{
+    text-align: center;
+    font-size: xx-large;
+}
+.rent{
+text-align: center;
+font-size: xx-large;
+}
+.bus{
+text-align: center;
+font-size: xx-large;
+}

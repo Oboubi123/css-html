@@ -1,0 +1,152 @@
+section.big{
+    width: 48%;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+}
+body{
+    background:url(@wall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    background:url(FQZsG4CXoAsO6-I.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(9, 9, 43);
+    width: 310px;
+    height: 420px;
+    margin-top: 25%;
+    color: aliceblue;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    }
+.container2{
+    margin-left: 310px;
+    background-color: bisque;
+    width: 340px;
+    height: 420px;
+    margin-top: -440px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+nav{
+	height: 10px;
+	width: 100%;
+}
+nav ul{
+    float: right;
+    margin-top: -16px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a.Gold:hover{
+	color: gold;
+}
+nav ul li a.Bronze:hover{
+	color:burlywood;
+}
+nav ul li a.silver:hover{
+	color: silver;
+}
+nav ul li a.active{
+    color: rgb(38, 201, 146);
+}
+form{
+    width: 300px;
+    text-align: justify;
+    margin-top: 7px;
+    margin-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+input{
+    padding: 0;
+    margin: 0;
+    background: whitesmoke;
+    margin-left: 35%;
+    margin-top: -30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 10.5rem;
+    height: 2rem;
+}
+input[type="checkbox"]{
+    width: 1rem;
+    height: 1rem;
+    margin-left: 10%;
+    align-items: center;
+    align-self: center;
+}
+input[value="1"]{
+    margin-left: 6.8rem;
+}
+
+button{
+    width: 100px;
+    margin-left: 35px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 7px;
+    font-weight: bold;
+ }
+button.cancel{
+    background-color: rgb(22, 1, 39);
+    color: white;
+}
+button.cancel:hover{
+    background-color: aqua;
+    color: black;
+}
+button.confirm{
+    background-color: aqua;
+    color: black;
+
+}
+button.confirm:hover{
+    background-color: rgb(22, 1, 39);
+    color: white;
+}
+h4{
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    gap: 10vh;
+}
+h5{
+    margin-left: 10px;
+    margin-top: -10px;
+}
+.bars{
+    float: right;
+    margin-top: -35px;
+    margin-right: 10px;
+}
+h1{
+    color: rgba(33, 196, 142, 0.863);
+    text-align: center;
+}
+h6{
+    text-align: center;
+    margin-top: -15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 8px;
+}
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+}

@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+.logo{
+    position: relative;
+    border-top: 50px solid #ea4335;
+    border-right: 50px solid #4285f4;
+    border-bottom: 50px solid #34a853;
+    border-left: 50px solid #fbbc05;
+    border-radius: 50%;
+    top: 100px;
+    width: 150px;
+    height: 150px;
+    margin: 50px auto;
+}
+.logo::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -48px;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 50px;
+    background: #4285f4;
+}
+.logo::after{
+    content: "";
+    position: absolute;
+    border-top: 150px solid transparent;
+    border-right: 170px solid black ;
+    top: -90px;
+    right: -90px;
+}
