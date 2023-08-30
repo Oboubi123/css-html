@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery App</title>
+    <link rel="stylesheet" href="FDA.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #ff6600;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .restaurant-card {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .restaurant-name {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .restaurant-info {
+            margin-top: 10px;
+            color: #666;
+        }
+
+        .order-button {
+            background-color: #ff6600;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .order-button:hover {
+            background-color: #ff4d00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Food Delivery App</h1>
+    </header>
+    <nav>
+        <p>Explore Restaurants</p>
+    </nav>
+    <div class="container">
+        <div class="restaurant-card">
+            <h2 class="restaurant-name">Delicious Delights</h2>
+            <p class="restaurant-info">Cuisine: Italian</p>
+            <p class="restaurant-info">Location: 123 Main Street</p>
+            <button class="order-button">Place Order</button>
+        </div>
+        <!-- More restaurant cards can be added here -->
+    </div>
+</body>
+</html>
