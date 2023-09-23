@@ -1,5 +1,4 @@
 public class Final {
-
     public static void main(String[] args) {
         ENGINE engine = new ENGINE();
         engine.setBrand("Yamaha");

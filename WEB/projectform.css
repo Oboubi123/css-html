@@ -1,0 +1,71 @@
+body{
+	background: url(77.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.Sign.Up{
+	background: rgba(44, 64, 80, 0.7);
+	padding: 45px;
+	width: 250px;
+	margin-left: 150px;
+	margin: 0 auto;
+	margin-top: 65px;
+}
+
+form{
+	width: 250;
+	text-align: center;
+	margin-top: -12px;
+}
+
+input{
+	width: 240px;
+	text-align: center;
+	background: transparent;
+	border: none;
+	border-bottom: 2px solid white;
+	font-size: 17px;
+	font-weight: 600;
+	padding: 10px 0;
+	transition: border 0.5s;
+	outline: none;
+	height: 20px;
+	color: gold;
+}
+
+button{
+	width: 180px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 19px;
+	border-radius: 25px;
+	border: none;
+	cursor: pointer;
+}
+
+button:hover{
+background: black;
+color: white;
+}
+
+h2{
+	color: gold;
+}
+
+a{
+	color: gold;
+}
+
+p{
+	color: white;
+}
+
+a:hover{
+color: cyan;
+}
+
+::placeholder{
+	color: white;
+	opacity: 0.5;
+}

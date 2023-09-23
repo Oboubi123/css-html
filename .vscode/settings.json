@@ -1,3 +1,5 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "CS2OO"
+    "liveServer.settings.multiRootWorkspaceName": "CS2OO",
+    "livePreview.defaultPreviewPath": "/WEB/FDA.html",
+    "liveServer.settings.port": 5501
 }

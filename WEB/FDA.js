@@ -495,3 +495,18 @@ function addAddress(){
         alert("Address not added")
     }
 }
+
+// Get the "circle-link" element by its ID
+const circleLink = document.getElementById("circle-link");
+
+// Add a click event listener
+circleLink.addEventListener("click", function(event) {
+    // Prevent the default link behavior, so it doesn't navigate to a new page
+    event.preventDefault();
+
+    // Define the URL you want to link to
+    const linkURL = "log in for projectform.html";
+
+    // Use window.location to navigate to the URL
+    window.location.href = linkURL;
+});

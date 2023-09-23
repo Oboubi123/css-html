@@ -510,6 +510,16 @@ color: white;
     
 }
 
+#circle-link {
+    color: lightcoral; /* Change the color to your preference */
+    text-decoration: none; /* Remove the default underline */
+}
+
+#circle-link:hover {
+    text-decoration: underline; /* Add an underline on hover */
+}
+
+
 @media screen and (max-width : 400px) and (-webkit-min-device-pixel-ratio: 2){
     #mobile-view{
         min-height: -webkit-fill-available;
