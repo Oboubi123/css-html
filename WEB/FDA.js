@@ -505,7 +505,7 @@ circleLink.addEventListener("click", function(event) {
     event.preventDefault();
 
     // Define the URL you want to link to
-    const linkURL = "log in for projectform.html";
+    const linkURL = "log in for projectform.html"; // Replace with your desired URL
 
     // Use window.location to navigate to the URL
     window.location.href = linkURL;
